@@ -1,0 +1,25 @@
+<% content_for :title do %>My super sweet dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="convergence_new" data-view="Graph" data-title="Chinook" style="background-color:#ff9618"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="convergence_new" data-view="Graph" data-title="Pacman" style="background-color:#ff9618"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="convergence_new" data-view="Graph" data-title="DigDug" style="background-color:#ff9618"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="convergence_new" data-view="Graph" data-title="Infrastructure" style="background-color:#ff9618"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="convergence_new" data-view="Graph" data-title="GINA" style="background-color:#ff9618"></div>
+    </li>
+  </ul>
+  <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://<%=request.host%>:<%=request.port%>/widgets/welcome</div></center>
+</div>
